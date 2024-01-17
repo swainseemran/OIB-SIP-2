@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;1,400;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+}
+
+.section1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20%;
+    margin-right: 20px;
+}
+
+.sub-sec1 {
+    text-align: center;
+}
+
+#name, #year {
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .section1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section1 img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .sub-sec1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .section1 {
+        justify-content: space-between;
+    }
+}
+
+.section2 {
+    text-align: center;
+    background-color: rgb(75, 71, 137);
+}
+
+.section2 .sub-sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(117, 248, 18);
+    font-size: 18px;
+}
+
+.section2 .sub-sec2 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.section2 .sub-sec2 p {
+    text-align: center;
+    margin: 15px 0;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
