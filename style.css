@@ -56,14 +56,14 @@ header {
 
 .section2 {
     text-align: center;
-    background-color: rgb(75, 71, 137);
+    background:linear-gradient(#4d7095, #142232);
 }
 
 .section2 .sub-sec2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(117, 248, 18);
+    color: rgb(107, 250, 107);
     font-size: 18px;
 }
 
